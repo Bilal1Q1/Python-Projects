@@ -1,8 +1,7 @@
-grocery_list = [['egges','bread','jam'],['onion','tomato','potato'],['sugar','Ghee','tea']]
-i=0
-while i<len(grocery_list):
-    j = 0
-    while j<3:
-        print(grocery_list[][])
-        j += 1
-    i +=1
+def neg_list (l):
+    nagative = []
+    for i in l:
+        nagative.append(-i)
+    return nagative
+pos_list = list(range(1,11))
+print(f"The list is {neg_list(pos_list)}")
